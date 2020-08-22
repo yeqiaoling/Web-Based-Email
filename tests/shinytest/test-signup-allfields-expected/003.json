@@ -1,0 +1,38 @@
+{
+  "input": {
+    "email": "11",
+    "firstName": "1",
+    "lastName": "1",
+    "mailAdd": "1",
+    "midName": "1",
+    "occupation": "1",
+    "passwd_su": "11",
+    "phonNum": "1",
+    "retrieve": 0,
+    "sidebarCollapsed": true,
+    "sidebarItemExpanded": null,
+    "sign_in": 0,
+    "sign_up": 1,
+    "submitted": 10,
+    "userName_su": "11"
+  },
+  "output": {
+    "body": {
+      "html": "<div id=\"signuppage\" style=\"width: 500px; max-width: 100%; margin: 0 auto; padding: 20px;\">\n  <div class=\"well\">\n    <h2 class=\"text-center\" style=\"padding-top: 0;color:#333; font-weight:600;\">SIGN UP<\/h2>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"email\">Email<\/label>\n      <input id=\"email\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"phonNum\">Phone Number<\/label>\n      <input id=\"phonNum\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"firstName\">First Name<\/label>\n      <input id=\"firstName\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"midName\">Middle Name<\/label>\n      <input id=\"midName\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"lastName\">Last Name<\/label>\n      <input id=\"lastName\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"mailAdd\">Mailing Address<\/label>\n      <input id=\"mailAdd\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"occupation\">Occupation<\/label>\n      <input id=\"occupation\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"userName_su\">Username<\/label>\n      <input id=\"userName_su\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"passwd_su\">Password<\/label>\n      <input id=\"passwd_su\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <br/>\n    <div style=\"text-align: center;\">\n      <button id=\"submitted\" type=\"button\" class=\"btn btn-default action-button\" style=\"color: white; background-color:#3c8dbc;&#10;                                 padding: 10px 15px; width: 150px; cursor: pointer;&#10;                                 font-size: 18px; font-weight: 600;\">SUBMIT<\/button>\n      <div id=\"existing_username\" class=\"shinyjs-hide\">\n        <p style=\"color: red; font-weight: 600; &#10;                                            padding-top: 5px;font-size:16px;\" class=\"text-center\">Oops! This username has been used!<\/p>\n      <\/div>\n      <br/>\n      <div id=\"existing_email\" class=\"shinyjs-hide\">\n        <p style=\"color: red; font-weight: 600; &#10;                                              padding-top: 5px;font-size:16px;\" class=\"text-center\">Oops! This email address has been used!<\/p>\n      <\/div>\n      <br class=\"shinyjs-hide\"/>\n      <div class=\"shinyjs-hide shinyjs-hide\" id=\"incomplete_info\">\n        <p style=\"color: red; font-weight: 600; &#10;                              padding-top: 5px;font-size:16px;\" class=\"text-center\">Oops! Please fill in all fields!<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "logoutbtn": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

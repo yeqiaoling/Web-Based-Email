@@ -1,0 +1,30 @@
+{
+  "input": {
+    "email_rtr": "",
+    "retrieve": 1,
+    "retrieved": 0,
+    "sidebarCollapsed": true,
+    "sidebarItemExpanded": null,
+    "sign_in": 0,
+    "sign_up": 0
+  },
+  "output": {
+    "body": {
+      "html": "<div id=\"retrievepage\" style=\"width: 500px; max-width: 100%; margin: 0 auto; padding: 20px;\">\n  <div class=\"well\">\n    <h2 class=\"text-center\" style=\"padding-top: 0;color:#333; font-weight:600;\">RETRIEVE USERNAME AND/OR PASSWORD<\/h2>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"email_rtr\">What is your email address?<\/label>\n      <input id=\"email_rtr\" type=\"text\" class=\"form-control\" value=\"\"/>\n    <\/div>\n    <br/>\n    <div style=\"text-align: center;\">\n      <button id=\"retrieved\" type=\"button\" class=\"btn btn-default action-button\" style=\"color: white; background-color:#3c8dbc;&#10;                                 padding: 10px 15px; width: 150px; cursor: pointer;&#10;                                 font-size: 18px; font-weight: 600;\">RETRIEVE<\/button>\n      <div id=\"noexist\" class=\"shinyjs-hide\">\n        <p style=\"color: red; font-weight: 600; &#10;                                            padding-top: 5px;font-size:16px;\" class=\"text-center\">Oops! This email address does not exist!<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "logoutbtn": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

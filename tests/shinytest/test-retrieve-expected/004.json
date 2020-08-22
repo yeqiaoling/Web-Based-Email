@@ -1,0 +1,52 @@
+{
+  "input": {
+    "email_rtr": "12",
+    "login_from_info": 0,
+    "retrieve": 1,
+    "retrieved": 1,
+    "sidebarCollapsed": true,
+    "sidebarItemExpanded": null,
+    "sign_in": 0,
+    "sign_up": 0
+  },
+  "output": {
+    "body": {
+      "html": "<div class=\"container-fluid\">\n  <div id=\"userinfo\" class=\"shiny-text-output\"><\/div>\n  <div id=\"passwdinfo\" class=\"shiny-text-output\"><\/div>\n  <button id=\"login_from_info\" type=\"button\" class=\"btn btn-default action-button\" style=\"color: white; background-color:#3c8dbc;&#10;                                 padding: 2px 7.5px; width: 75px; cursor: pointer;&#10;                                 font-size: 9px; font-weight: 300;\">LOG IN<\/button>\n<\/div>",
+      "deps": [
+        {
+          "name": "bootstrap",
+          "version": "3.4.1",
+          "src": {
+            "href": "shared/bootstrap"
+          },
+          "meta": {
+            "viewport": "width=device-width, initial-scale=1"
+          },
+          "script": [
+            "js/bootstrap.min.js",
+            "shim/html5shiv.min.js",
+            "shim/respond.min.js"
+          ],
+          "stylesheet": "css/bootstrap.min.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "logoutbtn": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "passwdinfo": "Password: 2",
+    "userinfo": "Username: 2"
+  },
+  "export": {
+
+  }
+}

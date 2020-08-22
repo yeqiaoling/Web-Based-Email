@@ -1,0 +1,44 @@
+{
+  "input": {
+    "loggedIn": 8,
+    "passwd": "1",
+    "retrieve": 0,
+    "sidebarCollapsed": true,
+    "sidebarItemExpanded": null,
+    "sign_in": 1,
+    "sign_up": 0,
+    "userName": "1"
+  },
+  "output": {
+    "body": {
+      "html": "<div id=\"emailpage\" style=\"width: 500px; max-width: 100%; margin: 0 auto; padding: 20px;\">\n  <div class=\"well\">\n    <h2 class=\"text-center\" style=\"padding-top: 0;color:#333; font-weight:600;\">Welcome! This is your email.<\/h2>\n  <\/div>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "logoutbtn": {
+      "html": "<li class=\"dropdown\" style=\"background-color: #eee !important; border: 0;&#10;                    font-weight: bold; margin:5px; padding: 10px;\">\n  <a href=\"javascript:window.location.reload(true)\">\n    <i class=\"fa fa-fa fa-sign-out\"><\/i>\n    Logout\n  <\/a>\n<\/li>",
+      "deps": [
+        {
+          "name": "font-awesome",
+          "version": "5.13.0",
+          "src": {
+            "href": "font-awesome-5.13.0"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": [
+            "css/all.min.css",
+            "css/v4-shims.min.css"
+          ],
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        }
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

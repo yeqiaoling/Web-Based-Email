@@ -1,0 +1,46 @@
+{
+  "input": {
+    "loggedIn": 5,
+    "passwd": "da",
+    "retrieve": 0,
+    "sidebarCollapsed": true,
+    "sidebarItemExpanded": null,
+    "sign_in": 1,
+    "sign_up": 0,
+    "userName": "2"
+  },
+  "output": {
+    "body": {
+      "html": "<div id=\"loginpage\" style=\"width: 500px; max-width: 100%; margin: 0 auto; padding: 20px;\">\n  <div class=\"well\">\n    <h2 class=\"text-center\" style=\"padding-top: 0;color:#333; font-weight:600;\">SIGN IN<\/h2>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"userName\">\n        <i class=\"fa fa-user\"><\/i>\n        Username\n      <\/label>\n      <input id=\"userName\" type=\"text\" class=\"form-control\" value=\"\" placeholder=\"Username\"/>\n    <\/div>\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" for=\"passwd\">\n        <i class=\"fa fa-unlock-alt\"><\/i>\n        Password\n      <\/label>\n      <input id=\"passwd\" type=\"password\" class=\"form-control\" value=\"\" placeholder=\"Password\"/>\n    <\/div>\n    <br/>\n    <div style=\"text-align: center;\">\n      <button id=\"loggedIn\" type=\"button\" class=\"btn btn-default action-button\" style=\"color: white; background-color:#3c8dbc;&#10;                                 padding: 10px 15px; width: 150px; cursor: pointer;&#10;                                 font-size: 18px; font-weight: 600;\">SIGN IN<\/button>\n      <div id=\"nomatch\" class=\"shinyjs-hide\">\n        <p style=\"color: red; font-weight: 600; &#10;                                            padding-top: 5px;font-size:16px;\" class=\"text-center\">Oops! Incorrect username or password!<\/p>\n      <\/div>\n      <br/>\n      <div id=\"no_existing\" class=\"shinyjs-hide\">\n        <p style=\"color: red; font-weight: 600; &#10;                                              padding-top: 5px;font-size:16px;\" class=\"text-center\">Oops! This email is not existing!<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "font-awesome",
+          "version": "5.13.0",
+          "src": {
+            "href": "font-awesome-5.13.0"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": [
+            "css/all.min.css",
+            "css/v4-shims.min.css"
+          ],
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        }
+      ]
+    },
+    "logoutbtn": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

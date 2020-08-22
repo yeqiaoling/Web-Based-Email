@@ -1,0 +1,23 @@
+{
+  "input": {
+    "retrieve": 0,
+    "sidebarCollapsed": false,
+    "sidebarItemExpanded": null,
+    "sign_in": 0,
+    "sign_up": 0
+  },
+  "output": {
+    "body": null,
+    "logoutbtn": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

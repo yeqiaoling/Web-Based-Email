@@ -1,0 +1,13 @@
+app <- ShinyDriver$new("../../")
+app$snapshotInit("tests-signup-existing")
+
+app$setInputs(sidebarCollapsed = FALSE)
+app$setInputs(sign_up = "click")
+app$setInputs(sidebarCollapsed = TRUE)
+app$setInputs(email = "11")
+app$setInputs(submitted = "click")
+app$snapshot()
+app$setInputs(email = "111")
+app$setInputs(userName_su = "1")
+app$setInputs(submitted = "click")
+app$snapshot()
