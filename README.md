@@ -4,7 +4,7 @@ I deployed [a web-based email system](https://yeqiaoling.shinyapps.io/singurity_
 
 ## Outline
 
-*  [app.R]: R source code to build the email system
-*  [design flow]: a chart showing interactions between client and server sides
-*  [test]: unit tests for each functionalities
+*  [app.R](https://github.com/yeqiaoling/web-based-email/blob/master/app.R): R source code to build the email system
+*  [design flow](https://github.com/yeqiaoling/Web-Based-Email/blob/master/flow.pdf): a chart showing interactions between client and server sides
+*  [test](https://github.com/yeqiaoling/Web-Based-Email/tree/master/tests): unit tests for each functionalities
 
